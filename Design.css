@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-image: url('bg.jpeg');
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+form {
+  margin: 4% 8% 2% 8%;
+  border: 4px solid none;
+  border-radius: 20px;
+}
+
+.input {
+  border-top: 2px solid;
+  border-color: rgb(223, 120, 171);
+}
+
+h2 {
+  margin-left: 4px;
+  font-style: oblique;
+  font-size: 28px;
+}
+
+.in {
+  border-bottom: 2px solid;
+  border-color: rgb(223, 120, 171);
+  padding-bottom: 20px;
+}
+
+p {
+  margin-left: 4px;
+}
+
+fieldset {
+  border: 2px solid skyblue;
+  background-image: url('bg images.jpeg');
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.f1 {
+  margin-bottom: 6px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid rgb(128, 65, 122);
+  
+}
+
+th {
+  font-size: 23px;
+  font: bolder;
+  background-color: rgb(51, 110, 187);
+}
+
+td, th {
+  border: 1px solid rgb(128, 65, 122);
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+}
+
+button {
+  background-color: rgb(51, 110, 187);
+  color: white;
+  padding: 10px 18px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.addbtn {
+  width: auto;
+}
+
+.deletebtn {
+  width: auto;
+}
+
+.updatebtn {
+  width: auto;
+}
+
+.container {
+  padding: 10px;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  font-size: 23px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img.avatar {
+  width: 16%;
+  border: 6px solid;
+  border-radius: 50%;
+  border-color: rgb(11, 134, 210);
+  object-fit: cover;
+}
+
+.heading {
+  align-items: center;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  color: white;  
+} 

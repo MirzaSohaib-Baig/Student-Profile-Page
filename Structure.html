@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href="Design.css">
+    <h1 class="heading">Student Profile Page</h1>
+  </head>
+  <body>
+      <form id="par">
+        <fieldset class="f1">
+          <div class="imgcontainer">
+            <img src="spidey.jpeg" alt="Sohaib" class="avatar" />
+            <h3>Mirza Sohaib Baig</h3>
+          </div>
+          <br>
+          <div class="input">
+            <h2 class="in">Introduction</h2>
+            <p> 
+              Student ID : 20B-041-SE
+            </p>
+            <p>
+              Student Year : Junior Year
+            </p>
+            <p>
+              Profession : Software Engineering
+            </p>
+        </fieldset>
+        <fieldset class="f2">
+          <div class="output">
+            <h2>Course List</h2>
+            <table id="studentNames" class="students">
+              <thead>
+                  <tr>
+                      <th>Course #</th>
+                      <th>Course Name</th>
+                      <th>Credit Hours</th>
+                      <th>Year</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr id="row222" class="row">
+                      <td>CS-222</td>
+                      <td>Operating System</td>
+                      <td>3</td>
+                      <td>2022</td>
+                  </tr>
+                  <tr id="row232" class="row">
+                    <td>CS-232</td>
+                    <td>Web Engineering</td>
+                    <td>2</td>
+                    <td>2022</td>
+                  </tr>
+                  <tr id="row264" class="row">
+                    <td>CS-264</td>
+                    <td>Cyber Security</td>
+                    <td>3</td>
+                    <td>2022</td>
+                  </tr>
+                <tr id="row211" class="row">
+                      <td>HS-211</td>
+                      <td>Professional Ethics</td>
+                      <td>2</td>
+                      <td>2022</td>
+                  </tr>
+              </tbody>
+          </table>
+          </div>
+        </fieldset>
+        <div class="container">
+          <button type="button" class="addbtn" onclick="addCourse()">Add</button>
+          <button type="button" class="deletebtn" onclick="deleteCourse()">Delete</button>
+          <button type="button" class="updatebtn" onclick="updateCourse()">Update</button>
+          <script src="Functionality.js"></script>
+        </div>
+      </form>
+  </body>
+</html>
